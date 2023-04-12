@@ -14,4 +14,4 @@ if st.button('Estimasi Harga') :
     predict = lrmodel.predict(
         [[selling_price,year]]
     )
-    st.write ('Estimasi Harga Motor Bekas Dalam Pounds : ', predict)
+    st.write ('Estimasi Harga Motor Bekas : ', predict)
